@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+    <!--HEAD-->
+    <head>
+        <meta charset="utf-8">
+        <title> CONSTANT RODRIGUEZ </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <!-- CSS -->
+    
+        <!-- FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <!-- FONT -->
+
+        <!-- META SEO -->
+        <meta name="description" content="This is the website of Constant Rodriguez, the best student">
+        <meta name="keywords" content="constant, rodgriguez, students, essec, developper">
+        <meta property="og:title" content="Constant Rodriguez">
+        <meta property="og:image" content="constant.jpg">
+        <meta property="og:description" content="This is the website of Constant Rodriguez, the best student.">
+        <meta property="og:site_name" content="Constant Rodriguez"/>
+        <!-- META SEO -->
+        
+    </head>
+    <!--HEAD-->
+
+
+
+    <!--BODY-->
+    <body>
+    
+    <!-- HEADER -->
+        <div class="content">           
+            <div class="block">
+                <header class="header">
+                    <a href="#" class="header-logo">CONSTANT RODRIGUEZ</a>
+                    <nav class="header-menu">
+                        <a href="#Accueil">Accueil</a>
+                        <a href="#A-propos">A propos</a>
+                        <a href="#Contact">Contact</a>
+                    </nav>
+                </header>
+            </div>
+        
+    <!-- HEADER -->
+
+
+    <!-- BANNER -->
+            <div class="block">
+                <div class="banner">
+                    <img src="src/img/samson-ZGjbiukp_-A-unsplash.jpg" alt="Quatre building vue de dessous" class="banner-image">                   
+                    <div class="card-grey">                      
+                        <h1 class="title is-1">BIENVENUE SUR MON SITE</h1>
+                        <h2 class="subtitle">APPRENEZ EN PLUS SUR MOI</h2>
+                        <button class="button is-link" id="open_modal">Contactez-moi !</button>                        
+                    </div> 
+                </div>
+                <div class="card-blue">
+                    <img src="src/img/constant.jpg" alt="image1" class="image"/>
+                    <img src="src/img/IMG_0891.jpg" alt="image2" class="image"/>
+                    <img src="src/img/IMG_0892.jpg" alt="image3" class="image"/>
+                </div>
+            </div>
+
+            
+    <!-- BANNER -->
+
+        <!-- modal -->
+            <div class="modal own-modal" id="modal_to_open">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">FORMULAIRE D'ENVOI</p>
+                        <button class="delete" aria-label="close" id="close_modal"></button>
+                    </header>
+                    <section class="modal-card-body">
+                        <div class="footer-contact-form">
+                            <form>
+                                <div class="field">
+                                    <label class="label">VOTRE NOM</label>
+                                    <div class="control">
+                                        <input id="name" class="input" type="text" placeholder="ex : DUPONT" name="name">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">VOTRE PRENOM</label>
+                                    <div class="control">
+                                        <input id="firstname" class="input" type="text" placeholder="ex : ROGER" name="firstname">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">VOTRE EMAIL</label>
+                                    <div class="control">
+                                        <input id="email" class="input" type="text" placeholder="ex : roger.dupont@hotmail.fr" name="email">
+                                    </div>                           
+                                </div>
+                                <div class="field">
+                                    <label class="label">VOTRE MESSAGE</label>
+                                    <div class="control">
+                                        <textarea id="message" class="textarea" placeholder="Comment pourrai-je vous aider ?" name="message"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                            <button class="button is-link" id="send_email">ENVOYER !</button>                                      
+                        </div>
+                    </section>                  
+                </div>
+            </div>
+        <!-- modal -->
+
+    <!-- SECTION : A PROPOS -->
+            <div class="card-white">
+                <h2 class="subtitle heading-site" id="A-propos" >A PROPOS</h2>
+                <div class="container about">
+                    <div class="columns">
+                        <div class="column about-single-element">
+                            <i class="fas fa-utensils icon"></i>
+                            <p>
+                                Amateur de cuisine, je m'y intéresse depuis petit. Plus le temps passe, plus je m'enrichis, gastronomiquement parlant, d'autres cultures. Cet amour me vient directement de ma grand mère Espagnole, avec qui je passais tout mon temps.
+                            </p>
+                        </div>
+
+                        <div class="column about-single-element">
+                            <i class="fas fa-plane icon"></i>
+                            <p> 
+                                Ma seconde passion, reliée a la première, est le voyage. En effet, aller découvrir d'autres pays, d'autres cultures me fascine. Je voyage souvent seul plutôt qu'en famille et c'est quelque chose que j'aimerai développer de plus en plus.
+                            </p> 
+                        </div>
+
+                        <div class="column about-single-element">
+                            <i class="fas fa-dumbbell icon"></i>
+                            <p>
+                                Le sport, evidemment, qui fait parti intégrante de ma vie. Depuis mes 4 ans, je pratique le football, et je ne compte jamais arrêter. J'aime le monde du football, aussi bien l'économie que le sport en lui même.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- SECTION : A PROPOS -->
+
+            <div class="cards">
+                <div class="card">
+                    <img src="src/img/marrakash.jpg" alt="marrakesh">
+                    <h3>MARRAKESH</h3>
+                </div>
+                <div class="card">
+                    <img src="src/img/suede.jpg" alt="suede">
+                    <h3>SUEDE</h3>
+                </div>
+                <div class="card">
+                    <img src="src/img/ecosse.jpg" alt="ecosse">
+                    <h3>ECOSSE</h3>
+                </div>
+                <div class="card">
+                    <img src="src/img/angletrerre.jpg" alt="angleterre">
+                    <h3>ANGLETERRE</h3>
+                </div>
+            </div>
+
+    <!-- CONTACT -->
+
+            <div class="block">
+                <footer class="footer">
+                    <h2 class="subtitle heading-site" id="Contact">CONTACTEZ-MOI</h2>
+                    <div class="footer-contact-form">
+                        <form>
+                            <div class="field">
+                                <label class="label">VOTRE NOM</label>
+                                <div class="control">
+                                <input id="name" class="input" type="text" placeholder="ex : DUPONT" name="name">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">VOTRE PRENOM</label>
+                                <div class="control">
+                                <input id="firstname" class="input" type="text" placeholder="ex : ROGER" name="firstname">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">VOTRE EMAIL</label>
+                                <div class="control">
+                                <input id="email" class="input" type="text" placeholder="ex : roger.dupont@hotmail.fr" name="email">
+                                </div>                           
+                            </div>
+                            <div class="field">
+                                <label class="label">VOTRE MESSAGE</label>
+                                <div class="control">
+                                <textarea id="message" class="textarea" placeholder="Comment pourrai-je vous aider ?" name="message"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                            <button class="button is-link" id="send_email">ENVOYER !</button>                                      
+                    </div>
+                    <div class="footer-informations">
+                            <p>1 place des Touleuses</p>
+                            <p>9500, Cergy</p>
+                            <ul>                            
+                                <li>
+                                    <a href="https://www.instagram.com/constantrodriguez/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>                                                
+                            </ul> 
+                                   
+                    </div>
+                </footer>
+            </div>
+
+
+    <!-- CONTACT -->
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="src/js/main.js"></script>
+        </div>        
+    </body>
+
+    <!--BODY-->
+</html>
+
+    

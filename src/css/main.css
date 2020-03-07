@@ -1,0 +1,183 @@
+/*
+GLOBAL
+*/
+.heading-site {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-left: 30px;
+    
+
+}
+
+.header .header-menu {
+     float: right;
+     margin-right: 15px;
+}
+
+.header .header-menu a {
+    margin-right: 30px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .header-menu a:hover {
+    color: #0099ff;
+}
+
+/*
+BANNER
+*/
+.banner {
+    margin-top: -30px;
+}
+
+.banner .banner-image {
+    position: relative;
+}
+
+.banner .card-grey {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -580px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.banner .card-grey h1,
+.banner .card-grey h2 {
+    color: #000000 ;
+}
+
+.open_modal {
+    margin-top: -600px;
+}
+
+
+.image
+{
+    width: 100px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+
+.card-white {
+    background-color: rgb(234, 238, 253);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.card-blue {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+
+/*
+ABOUT
+*/
+.about .about-single-element-contact .icon {
+    font-size: 250%;
+    text-align: left;
+    color: black;
+}
+
+
+.about .about-single-element .icon {
+    font-size: 250%;
+    text-align: center;
+    color: #5B5FFF
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 80%;
+}
+
+/*
+FOOTER
+*/
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-informations ul {
+    padding: 0;
+}
+
+.footer .footer-informations ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/*
+MODAL
+*/
+.own-modal {
+    padding-top: 100px;
+}
+
+/*
+VOYAGES
+*/
+.cards {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  .card img {
+    width: 100px;
+    border-radius: 20px;  
+    place-items: center;
+  }
+
+  .card h3 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+  }
